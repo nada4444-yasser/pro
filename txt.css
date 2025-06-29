@@ -1,0 +1,20 @@
+table{
+    width: 500px;
+    height: 200px;
+border-collapse: collapse;
+margin: auto;
+text-align: center;
+ border-bottom:  solid 2px;
+}
+thead{
+    background-color: rgb(22, 68, 68);
+    color: azure;
+
+}
+tbody{
+    background-color:bisque ;
+}
+tbody tr td:nth-child(4){
+    color: rgb(22, 68, 68);
+    background-color: rgb(138, 119, 184);
+}
